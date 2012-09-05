@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is auto-generated, do not edit! -jm -->
+<CordovaSourceDictionary>
+    <FilePath Value="www\css\jquery.mobile.metro.theme.css"/>
+    <FilePath Value="www\css\style.css"/>
+    <FilePath Value="www\js\jquery-1.7.2.min.js"/>
+    <FilePath Value="www\js\jquery.minesweeperjs-1.0.js"/>
+    <FilePath Value="www\js\jquery.minesweeperjs-1.0.min.js"/>
+    <FilePath Value="www\js\jquery.mobile-1.1.0.min.js"/>
+    <FilePath Value="www\js\jquery.mobile.metro.theme.init.js"/>
+    <FilePath Value="www\js\minesweeperjs.js"/>
+    <FilePath Value="www\js\index.js"/>
+    <FilePath Value="www\cordova-2.0.0.js"/>
+    <FilePath Value="www\css\index.css"/>
+    <FilePath Value="www\img\cordova.png"/>
+    <FilePath Value="www\index.html"/>
+</CordovaSourceDictionary>

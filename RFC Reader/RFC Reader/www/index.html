@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+	<link type="text/css" rel="stylesheet" href='css/mobiscroll-2.0.2.custom.min.css' />
+	<link type="text/css" rel="stylesheet" href='css/jquery.metro.css' />
+	<link rel="stylesheet"  href="css/jquery.mobile.metro.theme.css" />
+	<title>RFC Reader</title>
+	<script type="text/javascript" src="cordova-2.0.0.js"></script>
+	<script type="text/javascript" src="js/ChildBrowser.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.metro.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile.metro.theme.init.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/mobiscroll-2.0.2.custom.min.js"></script>
+	<script type="text/javascript" src="js/rfcreader.js"></script>
+	<script type="text/javascript">
+	    app.initialize();
+    </script>
+</head>
+<body>
+	<div class='metro-pivot'>
+		<div class='pivot-item'>
+			<h3>RFC Reader</h3>
+			<div id="rfcpicker">
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup">
+						<label for="scroller">
+							Pick 4 digit Document ID
+						</label>
+						<input id="scroller" name="scroller" />
+					</fieldset>
+				</div>
+				<a href="#" id="submit" data-role="button">Get the doc</a>
+				<!--<a href="#" id="addtofav" data-role="button" data-inline="true">Add to fav</a>-->
+			</div>
+		</div>
+		<div class='pivot-item'>
+			<h3>Search History</h3>
+			<div id="favDocs">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

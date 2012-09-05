@@ -1,0 +1,10 @@
+RFC Reader
+==========
+
+Inspired from this app on Android Play store (https://play.google.com/store/apps/details?id=com.vindroidapps.RFCBook#?t=W251bGwsMSwxLDIxMiwiY29tLnZpbmRyb2lkYXBwcy5SRkNCb29rIl0.) This app lets users open an RFC document in a childbrowser.
+
+Future work
+-----------
+
+Create an app bar that lets people share this app on social networking sites.
+Make the search history permanent and create hyperlinks to history pages.

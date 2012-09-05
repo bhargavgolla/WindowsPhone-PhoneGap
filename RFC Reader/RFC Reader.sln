@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFC Reader", "RFC Reader\RFC Reader.csproj", "{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP7CordovaClassLibBare", "F:\IUnlockJoy\phonegap-phonegap-2dbbdab\lib\windows-phone\framework\WP7CordovaClassLibBare.csproj", "{BC0F2FBA-FBA4-47F5-93BD-C88C171246F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC0F2FBA-FBA4-47F5-93BD-C88C171246F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0F2FBA-FBA4-47F5-93BD-C88C171246F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0F2FBA-FBA4-47F5-93BD-C88C171246F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0F2FBA-FBA4-47F5-93BD-C88C171246F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
