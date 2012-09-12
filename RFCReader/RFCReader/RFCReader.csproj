@@ -23,12 +23,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{291FD2F2-467A-4BF5-8F05-43B32AC2BA03}</ProjectGuid>
+    <ProjectGuid>{8225E1D4-2394-42AA-B440-17C3B58B5C02}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RFC_Reader</RootNamespace>
-    <AssemblyName>RFC Reader</AssemblyName>
+    <RootNamespace>RFCReader</RootNamespace>
+    <AssemblyName>RFCReader</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
@@ -38,9 +38,9 @@
     </SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
-    <XapFilename>RFC_Reader.xap</XapFilename>
+    <XapFilename>RFCReader.xap</XapFilename>
     <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
-    <SilverlightAppEntry>RFC_Reader.App</SilverlightAppEntry>
+    <SilverlightAppEntry>RFCReader.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
   </PropertyGroup>
@@ -74,6 +74,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
     <Reference Include="System.Xml" />
+    <Reference Include="WP7CordovaClassLib, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -97,19 +98,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CordovaSourceDictionary.xml" />
-    <Content Include="www\css\jquery.metro.css" />
-    <Content Include="www\css\mobiscroll-2.0.2.custom.min.css" />
     <Content Include="www\js\jquery-1.7.2.min.js" />
     <Content Include="www\js\jquery.metro.js" />
     <Content Include="www\js\jquery.mobile-1.1.0.min.js" />
     <Content Include="www\js\jquery.mobile.metro.theme.init.js" />
     <Content Include="www\js\mobiscroll-2.0.2.custom.min.js" />
     <Content Include="www\js\rfcreader.js" />
+    <Content Include="Images\dark\appbar.back.rest.png" />
+    <Content Include="Images\dark\appbar.close.rest.png" />
+    <Content Include="Images\dark\appbar.next.rest.png" />
+    <Content Include="Images\light\appbar.back.rest.png" />
+    <Content Include="Images\light\appbar.close.rest.png" />
+    <Content Include="Images\light\appbar.next.rest.png" />
     <Resource Include="www\css\images\wait-indicator.gif" />
+    <Content Include="www\css\jquery.metro.css" />
     <Content Include="www\css\jquery.mobile.metro.theme.css" />
+    <Content Include="www\css\mobiscroll-2.0.2.custom.min.css" />
     <Content Include="www\js\ChildBrowser.js" />
     <Content Include="www\js\index.js" />
     <None Include="BuildManifestProcessor.js" />
+    <Content Include="CordovaLib\WP7CordovaClassLib.dll" />
     <Content Include="www\cordova-2.0.0.js" />
     <Content Include="www\css\index.css" />
     <Content Include="www\img\cordova.png" />
@@ -140,12 +148,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="F:\IUnlockJoy\phonegap-phonegap-2dbbdab\lib\windows-phone\framework\WP7CordovaClassLibBare.csproj">
-      <Project>{BC0F2FBA-FBA4-47F5-93BD-C88C171246F4}</Project>
-      <Name>WP7CordovaClassLibBare</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

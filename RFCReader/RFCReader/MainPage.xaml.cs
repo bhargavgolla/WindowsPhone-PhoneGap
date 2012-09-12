@@ -34,7 +34,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Resources;
 
 
-namespace RFC_Reader
+namespace RFCReader
 {
     public partial class MainPage : PhoneApplicationPage
     {
