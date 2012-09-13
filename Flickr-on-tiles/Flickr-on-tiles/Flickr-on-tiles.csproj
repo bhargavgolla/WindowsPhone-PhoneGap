@@ -100,16 +100,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CordovaSourceDictionary.xml" />
-    <Content Include="Images\appbar.back.rest.png" />
-    <Content Include="Images\appbar.close.rest.png" />
-    <Content Include="Images\appbar.feature.video.rest.png" />
-    <Content Include="Images\appbar.next.rest.png" />
-    <Content Include="Images\appbar.save.rest.png" />
-    <Content Include="Images\appbar.stop.rest.png" />
     <Resource Include="www\css\images\1pixel.gif" />
     <Resource Include="www\css\images\metroIcons.jpg" />
     <Resource Include="www\css\images\metroIcons_light.jpg" />
     <Resource Include="www\css\images\appbar.share.rest.png" />
+    <Content Include="Images\dark\appbar.back.rest.png" />
+    <Content Include="Images\dark\appbar.close.rest.png" />
+    <Content Include="Images\dark\appbar.next.rest.png" />
+    <Content Include="Images\light\appbar.back.rest.png" />
+    <Content Include="Images\light\appbar.close.rest.png" />
+    <Content Include="Images\light\appbar.next.rest.png" />
     <Content Include="www\css\MetroJs.lta.css" />
     <Content Include="www\js\flickr.js" />
     <Content Include="www\js\jquery-1.7.2.min.js" />

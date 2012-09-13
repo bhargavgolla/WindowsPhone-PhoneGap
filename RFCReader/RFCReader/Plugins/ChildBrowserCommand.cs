@@ -180,7 +180,6 @@ namespace WP7CordovaClassLib.Cordova.Commands
             this.close();
         }
 
-
         public void close(string options = "")
         {
             if (browser != null)

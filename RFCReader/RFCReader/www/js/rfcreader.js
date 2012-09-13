@@ -39,7 +39,12 @@ function update_history(rfcID)
 {
 	$('#favDocs').append('<a href="#" class="favs" onclick="open_doc(\''+rfcID+'\')">RFC'+rfcID+'</a><br />');
 }
+/*function onBackKeyDown() {
+    alert("Close the window using the close button at the bottom of app");
+    //window.plugins.childBrowser.close();
+}*/
 $(document).ready(function () {
+    //document.addEventListener("backbutton", onBackKeyDown, false);
 	$("div.metro-pivot").metroPivot();
 	$("#scroller").scroller({ preset: 'time',
         theme: 'default',
@@ -70,3 +75,8 @@ $(document).ready(function () {
 		open_doc(rfcID);
 	});*/
 });
+
+/*$(document).backbutton(function () {
+    alert("Close the window using the close button at the bottom of app");
+    //window.plugins.childBrowser.close();
+});*/
