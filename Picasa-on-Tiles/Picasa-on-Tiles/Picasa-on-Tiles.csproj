@@ -23,12 +23,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DE202982-F2BF-4EE6-A89E-780B27D8B5F0}</ProjectGuid>
+    <ProjectGuid>{04CCCC13-73E2-4A4C-B164-B67C50A5D944}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Flickr_on_tiles</RootNamespace>
-    <AssemblyName>Flickr-on-tiles</AssemblyName>
+    <RootNamespace>Picasa_on_Tiles</RootNamespace>
+    <AssemblyName>Picasa-on-Tiles</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
@@ -38,9 +38,9 @@
     </SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
-    <XapFilename>Flickr_on_tiles.xap</XapFilename>
+    <XapFilename>Picasa_on_Tiles.xap</XapFilename>
     <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
-    <SilverlightAppEntry>Flickr_on_tiles.App</SilverlightAppEntry>
+    <SilverlightAppEntry>Picasa_on_Tiles.App</SilverlightAppEntry>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
   </PropertyGroup>
@@ -83,7 +83,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Plugins\ChildBrowserCommand.cs" />
+    <Compile Include="Plugins\ChildBrowserCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Plugins\LiveTiles.cs" />
     <Compile Include="Plugins\PGSocialShare.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,33 +102,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CordovaSourceDictionary.xml" />
+    <Content Include="Images\appbar.back.rest.png" />
+    <Content Include="Images\appbar.close.rest.png" />
+    <Content Include="Images\appbar.feature.video.rest.png" />
+    <Content Include="Images\appbar.next.rest.png" />
+    <Content Include="Images\appbar.save.rest.png" />
+    <Content Include="Images\appbar.stop.rest.png" />
     <Resource Include="www\css\images\1pixel.gif" />
+    <Resource Include="www\css\images\appbar.share.rest.png" />
     <Resource Include="www\css\images\metroIcons.jpg" />
     <Resource Include="www\css\images\metroIcons_light.jpg" />
-    <Resource Include="www\css\images\appbar.share.rest.png" />
-    <Content Include="Images\dark\appbar.back.rest.png" />
-    <Content Include="Images\dark\appbar.close.rest.png" />
-    <Content Include="Images\dark\appbar.feature.email.rest.png" />
-    <Content Include="Images\dark\appbar.next.rest.png" />
-    <Content Include="Images\dark\appbar.share.rest.png" />
-    <Content Include="Images\light\appbar.back.rest.png" />
-    <Content Include="Images\light\appbar.close.rest.png" />
-    <Content Include="Images\light\appbar.feature.email.rest.png" />
-    <Content Include="Images\light\appbar.next.rest.png" />
-    <Content Include="Images\light\appbar.share.rest.png" />
     <Content Include="www\css\MetroJs.lta.css" />
-    <Content Include="www\js\flickr.js" />
+    <Content Include="www\js\ChildBrowser.js" />
     <Content Include="www\js\jquery-1.7.2.min.js" />
-    <Content Include="www\js\jquery.md5.js" />
     <Content Include="www\js\jquery.mobile-1.1.0.min.js" />
     <Content Include="www\js\jquery.mobile.metro.theme.init.js" />
+    <Content Include="www\js\jso.js" />
     <Content Include="www\js\liveTiles.js" />
     <Content Include="www\js\MetroJs.lta.js" />
     <Content Include="www\js\PGSocialShare.js" />
-    <Content Include="www\js\sha1.js" />
+    <Content Include="www\js\picasa.js" />
     <Resource Include="www\css\images\wait-indicator.gif" />
     <Content Include="www\css\jquery.mobile.metro.theme.css" />
-    <Content Include="www\js\ChildBrowser.js" />
     <Content Include="www\js\index.js" />
     <None Include="BuildManifestProcessor.js" />
     <Content Include="CordovaLib\WP7CordovaClassLib.dll" />
