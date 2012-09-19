@@ -98,10 +98,12 @@
   <ItemGroup>
     <Content Include="CordovaSourceDictionary.xml" />
     <Content Include="Images\dark\appbar.facebook.share.png" />
+    <Content Include="Images\dark\appbar.favs.rest.png" />
     <Content Include="Images\dark\appbar.feature.email.rest.png" />
     <Content Include="Images\dark\appbar.share.rest.png" />
     <Content Include="Images\dark\appbar.twitter.share.png" />
     <Content Include="Images\light\appbar.facebook.share.png" />
+    <Content Include="Images\light\appbar.favs.rest.png" />
     <Content Include="Images\light\appbar.feature.email.rest.png" />
     <Content Include="Images\light\appbar.share.rest.png" />
     <Content Include="Images\light\appbar.twitter.share.png" />

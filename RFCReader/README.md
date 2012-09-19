@@ -1,6 +1,6 @@
 RFC Reader
 ==========
-
+This project has been discontinued. All further development will happen [here](https://github.com/bhargavgolla/WindowsPhoneApps/tree/master/RFCReader-Panaroma)
 Inspired from this app on Android Play store (https://play.google.com/store/apps/details?id=com.vindroidapps.RFCBook#?t=W251bGwsMSwxLDIxMiwiY29tLnZpbmRyb2lkYXBwcy5SRkNCb29rIl0.) This app lets users open an RFC document in a childbrowser.
 
 Marketplace

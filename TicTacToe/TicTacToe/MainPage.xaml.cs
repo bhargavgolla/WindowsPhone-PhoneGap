@@ -76,6 +76,20 @@ namespace TicTacToe
             ApplicationBar.Buttons.Add(button2);
             button2.Click += new EventHandler(fb_Click);
 
+            /*MarketPlace Icon*/
+            ApplicationBarIconButton button3 = new ApplicationBarIconButton();
+            if ((Visibility)App.Current.Resources["PhoneDarkThemeVisibility"] == Visibility.Visible)
+            {
+                button3.IconUri = new Uri("/Images/dark/appbar.favs.rest.png", UriKind.Relative);
+            }
+            else
+            {
+                button3.IconUri = new Uri("/Images/light/appbar.favs.rest.png", UriKind.Relative);
+            }
+            button3.Text = "Rate";
+            ApplicationBar.Buttons.Add(button3);
+            button3.Click += new EventHandler(market_Click);
+
             ApplicationBarMenuItem menuItem1 = new ApplicationBarMenuItem();
             menuItem1.Text = "Share this app with your Friends";
             ApplicationBar.MenuItems.Add(menuItem1);
@@ -119,6 +133,12 @@ namespace TicTacToe
             shareLinkTask.LinkUri = new Uri("http://www.windowsphone.com/s?appid=60c6f12e-0380-4fa3-b34b-9c5300f0e5b6", UriKind.Absolute);
             shareLinkTask.Message = "Have you checked out this WP App: Tic Tac Toe??";
             shareLinkTask.Show();
+        }
+
+        private void market_Click(object sender, EventArgs e)
+        {
+            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+            marketplaceReviewTask.Show();
         }
     }
 }

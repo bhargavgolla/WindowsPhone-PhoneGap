@@ -1,6 +1,6 @@
 Picasa-on-Tiles
 ===============
-
+This project has been discontinued. All further development will happen [here](https://github.com/bhargavgolla/WindowsPhoneApps/tree/master/PicasaOnTiles)
 Just like Flickr-On-Tiles, this will stream Picas aphotos on Tiles.
 
 Disclaimer: The list of capabilities that are shown aren't entirely used in this app. This is because of an issue in Phonegap (https://issues.apache.org/jira/browse/CB-109). This will be rectified in next update. Thanks for your support. As of now only, Networking, Web Browser Component, Live tiles are the only capabilities used in the app.
